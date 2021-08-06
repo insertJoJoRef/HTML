@@ -11,8 +11,6 @@ body {
   flex-wrap: wrap;
   z-index: 1000;
 }
-/*deez*/
-/*no u*/
 .btn-toggle-nav {
   width: 60px;
   height: 100%;
@@ -63,13 +61,26 @@ line-height: 60px;
   z-index: 1000;
 }
 .nav-sidebar ul {
-  
+  padding-top: 15px;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .nav-sidebar ul li {
-  
+  line-height: 60px;
+  list-style: none;
+
 }
 
-.nav-sidebar ul li a {
-  
+.nav-sidebar ul li span, .nav-sidebar ul li a {
+  display: block;
+  height: 60px;
+  padding:0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  white-space: nowrap;
+
 }
